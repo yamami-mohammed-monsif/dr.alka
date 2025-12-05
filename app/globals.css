@@ -22,7 +22,7 @@ h6 {
 }
 
 h1 {
-  @apply text-text text-[40px] leading-[120%] tracking-[-1px] lg:text-6xl xl:text-[76px] max-w-lg md:max-w-max;
+  @apply text-text text-5xl leading-[120%] tracking-[-1px] lg:text-6xl xl:text-[76px] max-w-lg md:max-w-max;
 }
 
 .section-description {
