@@ -11,7 +11,7 @@ const CTABtn = ({ children, className, onClick }: CTAProps) => {
   return (
     <div>
       <button
-        className={`${className} w-full md:w-auto bg-cta text-white text-sm sm:text-base flex items-center justify-center gap-2 px-5 md:px-8 py-3 md:py-4 rounded-full hover:bg-cta-hover hover:shadow-lg transition-colors duration-300 drop-shadow-lg`}
+        className={`${className} w-full md:w-auto bg-cta text-white text-sm sm:text-base flex items-center justify-center gap-2 px-5 md:px-8 py-4 rounded-full hover:bg-cta-hover hover:shadow-lg transition-colors duration-300 drop-shadow-lg`}
         onClick={onClick}
       >
         <Link
