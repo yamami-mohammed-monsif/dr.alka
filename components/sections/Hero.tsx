@@ -93,13 +93,13 @@ const Hero = () => {
             })}
           </div>
         </div>
-        <div className="w-[335px] md:w-[350px] lg:w-[450px] xl:w-[600px] mx-auto rounded-lg md:rounded-2xl overflow-hidden">
+        <div className="w-full sm:w-[350px] lg:w-[450px] xl:w-[600px] mx-auto rounded-lg md:rounded-2xl overflow-hidden">
           <Image
             src="/dr.alka1.webp"
             alt="dr.Alka sitting in her office smiling"
             width={500}
             height={500}
-            className="w-[335px] md:w-[350px] lg:w-[450px] xl:w-[600px]"
+            className="w-full sm:w-[350px] lg:w-[450px] xl:w-[600px]"
             loading="lazy"
             quality={75}
             sizes="(max-width: 767px) 335px, (max-width: 1023px) 350px, 600px"
