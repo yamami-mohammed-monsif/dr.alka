@@ -95,7 +95,7 @@ const Hero = () => {
         </div>
         <div className="w-[335px] md:w-[350px] lg:w-[450px] xl:w-[600px] mx-auto rounded-lg md:rounded-2xl overflow-hidden">
           <Image
-            src="/dr.alka1.png"
+            src="/dr.alka1.webp"
             alt="dr.Alka sitting in her office smiling"
             width={500}
             height={500}
