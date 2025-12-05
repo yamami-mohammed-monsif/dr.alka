@@ -57,7 +57,7 @@ const Header = () => {
 
           <div className="hidden lg:flex lg:items-center lg:justify-center lg:space-x-6">
             <DesktopNav />
-            <button className="bg-cta flex items-center gap-2 ml-8 px-6 py-3 rounded-sm hover:bg-cta-hover transition-colors duration-300">
+            <button className="bg-cta text-white flex items-center gap-2 ml-8 px-6 py-3 rounded-full hover:bg-cta-hover hover:shadow-lg transition-colors duration-300">
               <Link
                 href="https://wa.me/213667510454?text=Hello,%20I%20would%20like%20to%20book%20the%20Free%20Consultation."
                 target="_blank"

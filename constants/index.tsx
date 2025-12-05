@@ -29,17 +29,17 @@ export const StatisticsData = [
   },
   {
     id: 2,
-    value: "50+",
+    value: "100+",
     label: "Smile Makeovers",
   },
   {
     id: 3,
-    value: "5+",
+    value: "10+",
     label: "Years of Experience",
   },
   {
     id: 4,
-    value: "1000+",
+    value: "5000+",
     label: "Happy Patients",
   },
 ];
