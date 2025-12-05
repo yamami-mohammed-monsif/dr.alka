@@ -64,7 +64,7 @@ const Hero = () => {
             <div>
               <p className="font-bold text-sm md:text-lg leading-4">+5000</p>
               <p className="text-xs leading-4 md:text-sm md:leading-5">
-                Satisfied Patients
+                Happy Patients
               </p>
             </div>
           </div>
