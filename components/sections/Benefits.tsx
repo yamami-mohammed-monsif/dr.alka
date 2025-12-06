@@ -33,7 +33,11 @@ const Benefits = () => {
             {leftColumnBenefits.map((benefit, index) => (
               <div
                 key={benefit.id}
-                className={`animate-fade-in-up ${getDelayClass(index, 1)}`}
+                className={`${
+                  isVisible
+                    ? `animate-fade-in-up ${getDelayClass(index, 1)}`
+                    : "opacity-0"
+                }`}
               >
                 <BenefitCard {...benefit} />
               </div>
@@ -41,7 +45,13 @@ const Benefits = () => {
           </div>
 
           {/* --- CENTER IMAGE --- */}
-          <div className="order-3 lg:order-2 w-full flex justify-center animate-fade-in-up animate-delay-300">
+          <div
+            className={`order-3 lg:order-2 w-full flex justify-center ${
+              isVisible
+                ? "animate-fade-in-up animate-delay-500 lg:animate-delay-300"
+                : "opacity-0"
+            }`}
+          >
             <div className="relative w-full max-w-[350px] lg:max-w-full aspect-square rounded-2xl overflow-hidden shadow-sm">
               <Image
                 src="/happy-dental-patient.jpeg"
@@ -59,7 +69,11 @@ const Benefits = () => {
             {rightColumnBenefits.map((benefit, index) => (
               <div
                 key={benefit.id}
-                className={`animate-fade-in-up ${getDelayClass(index, 3)}`}
+                className={`${
+                  isVisible
+                    ? `animate-fade-in-up ${getDelayClass(index, 3)}`
+                    : "opacity-0"
+                }`}
               >
                 <BenefitCard {...benefit} />
               </div>
