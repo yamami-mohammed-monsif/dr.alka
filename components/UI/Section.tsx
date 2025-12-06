@@ -4,12 +4,14 @@ interface SectionProps {
   id?: string;
   children: React.ReactNode;
   className?: string;
+  title?: string;
 }
 
 const Section = React.forwardRef<HTMLElement, SectionProps>(
-  ({ id, children, className = "" }, ref) => {
+  ({ id, children, className = "", title }, ref) => {
     return (
       <section
+        title={title}
         id={id}
         ref={ref}
         className={`

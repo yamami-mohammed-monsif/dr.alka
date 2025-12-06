@@ -21,7 +21,7 @@ const Process = () => {
           Your path to a confident smile
         </h2>
         <p
-          className={`section-description text-center ${
+          className={`section-description text-center max-w-xl! ${
             isVisible ? "aniamte-fade-in-up animate-delay-100" : "opacity-0"
           }`}
         >
