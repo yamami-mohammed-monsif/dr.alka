@@ -7,6 +7,11 @@
   --color-bg: #f6f3ee;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-lora), serif;
   color: var(--color-text);

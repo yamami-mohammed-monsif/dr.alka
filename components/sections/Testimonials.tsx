@@ -40,7 +40,7 @@ const Testimonials = () => {
           slidesPerView={1}
           onSwiper={setSwiperInstance} // Capture swiper instance
           autoplay={{
-            delay: 5000,
+            delay: 6000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
