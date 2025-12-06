@@ -4,6 +4,7 @@ import Statistics from "@/components/UI/Statistics";
 import Testimonials from "@/components/sections/Testimonials";
 import BeforeAfters from "@/components/sections/BeforeAfters";
 import Benefits from "@/components/sections/Benefits";
+import Process from "@/components/sections/Process";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials />
       <BeforeAfters />
       <Benefits />
+      <Process />
     </>
   );
 }

@@ -124,6 +124,30 @@ export const BenefitsData = [
   },
 ];
 
+export const Steps = [
+  {
+    id: 1,
+    icon: "/step1-icon.svg",
+    title: "Book Your Free Consultation",
+    description:
+      "Send a quick WhatsApp message to schedule your visit. no pressure, just a friendly chat about your smile.",
+  },
+  {
+    id: 2,
+    icon: "/step2-icon.svg",
+    title: "Get a Personalized Smile Assessment",
+    description:
+      "Dr. Alka will listen to your goals and recommend the best treatment options for you.",
+  },
+  {
+    id: 3,
+    icon: "/step3-icon.svg",
+    title: "Get Started on Your Dental Care",
+    description:
+      "Begin your treatment with confidence and walk away closer to the smile you’ve always wanted. sBegin when you’re ready, no pressure, no obligation",
+  },
+];
+
 export const FAQData = [
   {
     id: 1,
