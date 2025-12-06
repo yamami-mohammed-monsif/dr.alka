@@ -151,39 +151,51 @@ export const Steps = [
 export const FAQData = [
   {
     id: 1,
-    question: "What is Visagism?",
+    question: "Is the smile makeover consultation really free?",
     answer:
-      "Visagism is a modern approach to smile design that blends art and science. It studies your facial features, expressions, and personality to create a smile that naturally fits you, not a generic template. It’s what makes every result unique, authentic, and in harmony with your identity.",
+      "Yes, completely free with no strings attached. You'll get expert advice, a personalized smile makeover plan, and transparent pricing, all at no cost.",
   },
   {
     id: 2,
-    question: "How long will my new smile last and how should I care for it?",
+    question: "How long does the consultation take?",
     answer:
-      "With professional care and good habits, high-quality veneers can last over a decade. You should continue brushing twice daily, flossing, attending regular check-ups, and avoiding using your teeth as tools or biting very hard objects.",
+      "Usually around 15–20 minutes, We keep it focused but thorough, so you get everything you need without taking up your whole day.",
   },
   {
     id: 3,
-    question: "Am I a good candidate for a smile makeover with Visagism?",
+    question: "Will I feel pressured to book treatment?",
     answer:
-      "Most adult patients who have healthy teeth and gums, and who want a more confident, natural smile, are good candidates. During your consultation, we’ll assess your oral health, smile goals, and facial features to create a customised plan. If there are active issues like decay or gum disease, we’ll treat those first.",
+      "Absolutely not. We're here to give you information and options for your smile makeover. What you do with that information is entirely up to you.",
   },
   {
     id: 4,
-    question: "Does the procedure hurt or require a long recovery?",
+    question: "Do you offer payment plans?",
     answer:
-      "No. The process is designed to be comfortable. We use local anaesthetic during preparation and many patients feel little to no discomfort. Some mild sensitivity may occur afterward, but this usually resolves within days.",
+      "Yes, we offer flexible payment options for all smile makeover treatments. We'll discuss this during your consultation so you know exactly what's affordable for you.",
   },
   {
     id: 5,
-    question: "Will my smile look natural or “too perfect”?",
+    question: " What happens after the consultation?",
     answer:
-      "Yes, that’s the promise of our Visagism-based design. We align your smile with your facial structure, personality, and features so it looks and feels uniquely yours, not like a template. Colour, shape and texture are carefully matched for authenticity.",
+      "You'll leave with a written smile makeover plan, pricing, and our contact details. You can take all the time you need to think it over. If you want to proceed, just give us a call to book your first appointment.",
   },
   {
     id: 6,
-    question: "What is the process & how many visits will I need?",
+    question: "I'm not sure what treatments I need. Should I still book?",
     answer:
-      "The process typically starts with a consultation and 3D assessment of your face and smile. After design approval, we prepare the teeth, take impressions, and place the veneers. Most full-mouth transformations take 4–8 weeks, depending on your plan and any preparatory work. A shorter case (2-4 teeth) could be faster.",
+      "Definitely! That's what the smile makeover consultation is for – we'll assess your situation and recommend the best combination of treatments for your goals and budget.",
+  },
+  {
+    id: 7,
+    question: "Can I bring someone with me?",
+    answer:
+      "Of course! Many patients bring a partner or family member for support or a second opinion on their smile makeover plan.",
+  },
+  {
+    id: 8,
+    question: "Do you treat international patients?",
+    answer:
+      "Yes, we welcome international patients and offer flexible scheduling to accommodate medical tourists visiting Dubai.",
   },
 ];
 
