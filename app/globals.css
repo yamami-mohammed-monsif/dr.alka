@@ -25,6 +25,10 @@ h1 {
   @apply text-text text-5xl leading-[120%] tracking-[-1px] lg:text-6xl xl:text-[76px] max-w-lg md:max-w-max;
 }
 
+h2 {
+  @apply text-center text-4xl lg:text-[52px] leading-[120%] tracking-[-1px] mb-5 md:mb-6 max-w-2xl;
+}
+
 .section-description {
   @apply text-base lg:text-lg leading-[150%] max-w-lg;
 }
@@ -90,4 +94,28 @@ h1 {
     opacity: 1;
     transform: none;
   }
+}
+
+/* Testimonials Swiper Buttons */
+.testimonials-swiper-button-prev,
+.testimonials-swiper-button-next {
+  @apply border border-text text-text bg-white;
+}
+
+.swiper-pagination {
+  position: relative !important;
+}
+
+.swiper-pagination-bullet {
+  position: relative !important;
+  display: inline-block !important;
+  background-color: var(--color-gray-300) !important;
+  opacity: 0.3 !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-text) !important;
+  opacity: 1 !important;
 }

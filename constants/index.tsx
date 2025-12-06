@@ -47,34 +47,21 @@ export const StatisticsData = [
 export const TestimonialsData = [
   {
     id: 1,
-    name: "Maral Seyitmyradova",
+    name: "nick chen",
     content:
-      "I had a fantastic experience with Dr. Maroof at Apex. He was incredibly professional, kind and attentive throughout the entire process. My new crown feels perfects, and he made sure I was comfortable every step of the way. I also appreciate the aftercare guidance and the extra tips for dental and gum health. Highly recommend Dr. Maroof and his team for anyone looking for excellent dental care!",
+      "I'm truly grateful for the professional treatmen from Dr. Alka Bulchandani. She is very attentive and gentle, and the whole process made me feel completely at ease. She patiently explained each step and provided detailed advice. The clinic is clean and comfortable, and the staff are warm and friendly. Highly recommended",
   },
   {
     id: 2,
-    name: "Sajid Nazir",
+    name: "Sandhya Sharma",
     content:
-      "Had a dental veneer repaired with Dr. Maroof. He's highly skilled and professional. I would recommend him to anyone looking for any cosmetic dental needs.",
+      "I had a severely complicated case with my dental mplant. Dr. Alka Bulchandani handled it with the utmost care and professionalism. I'm very mpressed with the way the surgery was taker care of.",
   },
   {
     id: 3,
-    name: " Pernille Stroem",
+    name: "Sudarshani Pillai",
     content:
-      "Dr. Maroof Beg. He crafted my crown with minimal discomfort, which was a big deal for someone like me who doesn't exactly love dentist visits. His patience and professionalism were great - a 5-star experience!",
-  },
-  {
-    id: 4,
-    name: "Maisra Kafeel",
-    content:
-      "Got my teeth whitening done by Dr. Maroof and the results were amazing! He is so patient, explains every step of the process in great detail. Undoubtedly the best doctor in Dubai for any kind of cosmetic treatment. I highly recommend him!",
-  },
-
-  {
-    id: 5,
-    name: "shiven taneja",
-    content:
-      "I had an amazing experience with Dr. Maroof Beg! He also sent aftercare guides and followed up with me on how i was doing. Amazing person and service. Highly recommend!",
+      "Dr. Alka Bulchadani, I met her for the first time a the Harley Clinic to have my teeth whitened, and she was a wonderful person who explained the entire procedure before moving forward. Her work was fantastic. Much appreciation, Doctor. Thank you.",
   },
 ];
 
