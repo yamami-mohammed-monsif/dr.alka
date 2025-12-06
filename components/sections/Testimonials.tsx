@@ -33,7 +33,7 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <div className="flex-1 min-w-0">
+      <div>
         <Swiper
           modules={[Autoplay, Pagination, Navigation]}
           spaceBetween={24}
