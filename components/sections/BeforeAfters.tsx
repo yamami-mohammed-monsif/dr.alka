@@ -80,7 +80,7 @@ const BeforeAfters = () => {
           >
             {BeforeAfterData.map((img) => (
               <SwiperSlide key={img.id}>
-                <div className="relative w-[300px] mx-auto aspect-3/4 bg-gray-200 rounded-lg overflow-hidden">
+                <div className="relative w-[300px] mx-auto aspect-3/5 bg-gray-200 rounded-lg overflow-hidden">
                   <Image
                     src={img.src}
                     alt={img.alt}
