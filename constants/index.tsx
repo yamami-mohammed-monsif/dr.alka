@@ -96,23 +96,31 @@ export const BeforeAfterData = [
 export const BenefitsData = [
   {
     id: 1,
-    description: "Perfect Facial Harmony.",
+    icon: "/benefit1-icon.svg",
+    title: " No Pressure, Just Answers",
+    description:
+      "We're here to educate, not sell. You'll get honest advice about what will work for your smile and your budget without any obligation to proceed.",
   },
   {
     id: 2,
-    description: "100% Natural-Looking Results.",
+    icon: "/benefit2-icon.svg",
+    title: "Complete Smile Assessment",
+    description:
+      "We don't believe in one-size-fits-all dentistry. Your consultation includes a thorough smile analysis and a custom makeover plan designed around your goals.",
   },
   {
     id: 3,
-    description: "Reflects Your Personality.",
+    icon: "/benefit3-icon.svg",
+    title: "Meet Your Cosmetic Expert",
+    description:
+      "Get to know us before committing to anything. We want you to feel completely comfortable with the people caring for your smile transformation.",
   },
   {
     id: 4,
-    description: "Confidence That Feels Effortless.",
-  },
-  {
-    id: 5,
-    description: "Designed Right the First Time.",
+    icon: "/benefit4-icon.svg",
+    title: "See All Your Options",
+    description:
+      "Not sure what treatments you need? We'll walk you through every option available for your complete smile transformation, with pros and cons for each.",
   },
 ];
 

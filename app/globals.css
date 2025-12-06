@@ -34,6 +34,10 @@ h2 {
   @apply text-center text-4xl lg:text-[52px] leading-[120%] tracking-[-1px] mb-5 md:mb-6 max-w-2xl;
 }
 
+h4 {
+  @apply text-2xl lg:text-3xl leading-[120%] tracking-[-0.5px];
+}
+
 .section-description {
   @apply text-base lg:text-lg leading-[150%] max-w-lg;
 }
@@ -81,6 +85,9 @@ h2 {
 }
 .animate-delay-400 {
   animation-delay: 0.4s;
+}
+.animate-delay-500 {
+  animation-delay: 0.5s;
 }
 
 /* Reduce animation on mobile for better performance */

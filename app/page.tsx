@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import Statistics from "@/components/UI/Statistics";
 import Testimonials from "@/components/sections/Testimonials";
 import BeforeAfters from "@/components/sections/BeforeAfters";
+import Benefits from "@/components/sections/Benefits";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Statistics />
       <Testimonials />
       <BeforeAfters />
+      <Benefits />
     </>
   );
 }
