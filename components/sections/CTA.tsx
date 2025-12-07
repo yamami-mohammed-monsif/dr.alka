@@ -36,7 +36,7 @@ const CTA = () => {
         </div>
         <div>
           <Image
-            src="/cta-img.png"
+            src="/cta-img.webp"
             alt="dr. alka with a patinet in the office during consultation"
             width={955}
             height={588}

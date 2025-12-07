@@ -42,7 +42,7 @@ const About = () => {
         </div>
         <div className="w-full sm:w-[350px] lg:w-[450px] xl:w-[500px] mx-auto rounded-lg md:rounded-2xl overflow-hidden">
           <Image
-            src="/about-img.png"
+            src="/about-img.webp"
             alt="dr.Alka sitting in her office smiling"
             width={500}
             height={500}

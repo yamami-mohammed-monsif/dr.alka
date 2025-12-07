@@ -14,7 +14,7 @@ const TestimonialCard = ({ id, name, content }: TestimonialData) => {
     >
       <div className="flex flex-col gap-4 md:gap-5">
         <Image
-          src="/five-stars.png"
+          src="/five-stars.webp"
           alt="five stars rating"
           width={101}
           height={16}

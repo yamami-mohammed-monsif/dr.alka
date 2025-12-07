@@ -54,7 +54,7 @@ const Benefits = () => {
           >
             <div className="relative w-full max-w-[350px] lg:max-w-full aspect-square rounded-2xl overflow-hidden shadow-sm">
               <Image
-                src="/happy-dental-patient.jpeg"
+                src="/happy-dental-patient.webp"
                 alt="a happy dental patient sitting on dental chair looking at mirror happy with her new smile"
                 fill
                 className="object-cover"
