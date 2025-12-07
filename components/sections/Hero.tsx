@@ -100,7 +100,6 @@ const Hero = () => {
             width={500}
             height={500}
             className="w-full sm:w-[350px] lg:w-[450px] xl:w-[600px]"
-            loading="lazy"
             quality={75}
             sizes="(max-width: 767px) 335px, (max-width: 1023px) 350px, 600px"
             priority={true}
