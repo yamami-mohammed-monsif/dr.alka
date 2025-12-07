@@ -1,3 +1,6 @@
+import { FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 export const NavLinks = [
   {
     id: 1,
@@ -144,7 +147,7 @@ export const Steps = [
     icon: "/step3-icon.svg",
     title: "Get Started on Your Dental Care",
     description:
-      "Begin your treatment with confidence and walk away closer to the smile you’ve always wanted. sBegin when you’re ready, no pressure, no obligation",
+      "Begin your treatment with confidence and walk away closer to the smile you’ve always wanted. Begin when you’re ready, no pressure, no obligation",
   },
 ];
 
@@ -202,22 +205,22 @@ export const FAQData = [
 export const SocialLinks = [
   {
     id: 1,
-    label: "Instagram",
-    href: "https://www.instagram.com/dr.maroofbeg/",
+    icon: <FaInstagram size={24} />,
+    href: "/",
   },
   {
     id: 2,
-    label: "Facebook",
-    href: "https://www.facebook.com/profile.php?id=61558695621857",
+    icon: <FaFacebook size={24} />,
+    href: "/",
   },
   {
     id: 3,
-    label: "LinkedIn",
-    href: "https://www.linkedin.com/in/drmaroofbeg/",
+    icon: <FaLinkedin size={24} />,
+    href: "/",
   },
   {
     id: 4,
-    label: "Maps",
-    href: "https://maps.app.goo.gl/AY1mbdnnCy2MdPYY9",
+    icon: <MdEmail size={24} />,
+    href: "/",
   },
 ];
