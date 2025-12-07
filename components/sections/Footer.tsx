@@ -15,7 +15,8 @@ const Footer = () => {
               width={80}
               height={80}
               className="aspect-square w-20 lg:w-28"
-              priority
+              priority={false}
+              loading="lazy"
               quality={75}
             />
           </Link>
