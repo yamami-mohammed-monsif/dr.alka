@@ -15,7 +15,7 @@ const CTABtn = ({ children, className, onClick }: CTAProps) => {
         onClick={onClick}
       >
         <Link
-          href="https://wa.me/213667510454?text=Hello,%20I%20would%20like%20to%20book%20the%20Free%20Consultation."
+          href="https://wa.me/971522590310?text=Hello,%20I%20would%20like%20to%20book%20the%20Free%20Consultation."
           target="_blank"
           className="flex items-center gap-2"
         >
