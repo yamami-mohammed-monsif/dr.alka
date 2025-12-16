@@ -1,6 +1,4 @@
 import { FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-
 export const NavLinks = [
   {
     id: 1,
@@ -20,7 +18,7 @@ export const NavLinks = [
   {
     id: 4,
     label: "Contact",
-    href: "#contact",
+    href: "#cta",
   },
 ];
 
@@ -216,11 +214,6 @@ export const SocialLinks = [
   {
     id: 3,
     icon: <FaLinkedin size={24} />,
-    href: "/",
-  },
-  {
-    id: 4,
-    icon: <MdEmail size={24} />,
-    href: "/",
+    href: "https://www.linkedin.com/in/dr-alka-bulchandani-a9455a64/",
   },
 ];

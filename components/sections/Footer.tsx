@@ -1,13 +1,15 @@
 import Section from "../UI/Section";
 import Link from "next/link";
 import Image from "next/image";
+import { FaPhone, FaLocationDot } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 import { NavLinks, SocialLinks } from "@/constants";
 
 const Footer = () => {
   return (
     <Section className="bg-text text-white">
-      <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-6 mb-10 md:mb-12">
-        <div className="flex items-center justify-center">
+      <div className="flex flex-col md:flex-row items-start justify-center md:justify-between gap-6 mb-10 md:mb-12">
+        <div className="flex items-center justify-center -ml-4 md:ml-0 md:-mt-5 lg:-mt-8">
           <Link href="/">
             <Image
               src="/logo-white.webp"
@@ -21,18 +23,27 @@ const Footer = () => {
             />
           </Link>
         </div>
-        <ul className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
+        <ul className="flex flex-col gap-4 md:gap-6">
           {NavLinks.map((link) => (
             <li key={link.id} className="hover:underline">
               <Link href={link.href}>{link.label}</Link>
             </li>
           ))}
-          <li>
-            <Link href="#faqs" className="hover:underline">
-              FAQs
-            </Link>
-          </li>
         </ul>
+        <div className="flex flex-col gap-3">
+          <div className="flex items-start gap-1 md:gap-2">
+            <FaLocationDot className="inline mr-2 w-5" />
+            <p>------------</p>
+          </div>
+          <div className="flex items-center gap-1 md:gap-2">
+            <MdEmail className="inline mr-2 w-5" />
+            <p>dralkabulchandani9@gmail.com</p>
+          </div>
+          <div className="flex items-center gap-1 md:gap-2">
+            <FaPhone className="inline mr-2 w-5" />
+            <p>052 259 0310</p>
+          </div>
+        </div>
         <ul className="flex gap-3 md:gap-4 items-center">
           {SocialLinks.map((link) => (
             <li
