@@ -7,7 +7,7 @@ import useOnScreen from "@/hooks/useOnScreen";
 const About = () => {
   const [sectionRef, isVisible] = useOnScreen({ threshold: 0.2 });
   return (
-    <Section id="#about" title="About Us" ref={sectionRef} className="bg-bg">
+    <Section id="about" title="About Us" ref={sectionRef} className="bg-bg">
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="flex flex-col items-start gap-6 max-w-xl">
           <h2 className={`${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
