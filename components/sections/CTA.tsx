@@ -8,7 +8,7 @@ import useOnScreen from "@/hooks/useOnScreen";
 const CTA = () => {
   const [sectionRef, isVisible] = useOnScreen({ threshold: 0.2 });
   return (
-    <Section ref={sectionRef}>
+    <Section ref={sectionRef} id="cta">
       <div className="bg-[#1E6165] text-white rounded-lg overflow-hidden grid md:grid-cols-2 items-center">
         <div className="p-6 md:p-8">
           <h2
