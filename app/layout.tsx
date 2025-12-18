@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Lora, Gilda_Display } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 
 const lora = Lora({
@@ -35,6 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${lora.variable} ${gildaDisplay.variable} antialiased`}>
         {children}
+        <GoogleTagManager gtmId="GTM-W2ZP94B6" />
       </body>
     </html>
   );
