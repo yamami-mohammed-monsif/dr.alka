@@ -6,8 +6,8 @@ import { StatisticsData } from "@/constants";
 const Hero = () => {
   return (
     <Section className="relative">
-      <div className="grid md:grid-cols-2 gap-8 items-center">
-        <div className="flex flex-col ">
+      <div className="grid md:grid-cols-2 gap-8">
+        <div className="flex flex-col md:pt-4">
           <div className="flex items-center gap-2 mb-2 md:mb-0 md:mt-6 md:order-last animate-fade-in-up md:animate-delay-400">
             <div className="flex items-center happy-patinets-images">
               <div className="testimonial-image">
