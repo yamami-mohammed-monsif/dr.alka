@@ -9,14 +9,14 @@ const Footer = () => {
   return (
     <Section className="bg-text text-white">
       <div className="flex flex-col md:flex-row items-start justify-center md:justify-between gap-6 mb-10 md:mb-12">
-        <div className="flex flex-col -ml-4 md:ml-0 md:-mt-5 lg:-mt-8">
+        <div className="flex flex-col">
           <Link href="/">
             <Image
               src="/logo-white.webp"
               alt="Dr.Alka Logo"
               width={80}
               height={80}
-              className="aspect-square w-20 lg:w-28"
+              className="aspect-square w-20 lg:w-28 -ml-4 md:ml-0 md:-mt-5 lg:-mt-8"
               priority={false}
               loading="lazy"
               quality={75}
