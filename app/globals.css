@@ -132,3 +132,8 @@ h4 {
   background-color: var(--color-text) !important;
   opacity: 1 !important;
 }
+
+.policy-page h2,
+.tos-page h2 {
+  @apply text-left max-w-max;
+}

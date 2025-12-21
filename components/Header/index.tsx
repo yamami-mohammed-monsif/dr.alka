@@ -7,7 +7,11 @@ import MenuButton from "../UI/MenuButton";
 import MobileNav from "./MobileNav";
 import DesktopNav from "./DesktopNav";
 
-const Header = () => {
+interface HeaderProps {
+  className?: string;
+}
+
+const Header = ({ className }: HeaderProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
@@ -39,7 +43,12 @@ const Header = () => {
     <>
       <MobileNav isMenuOpen={isMenuOpen} onToggle={handleToggleMenu} />
 
-      <header className="font-nunito-sans animate-fade-in">
+      <header
+        className={
+          "font-nunito-sans animate-fade-in" +
+          (className ? ` ${className}` : "")
+        }
+      >
         <div className="flex items-center justify-between px-5 md:px-8 lg:px-[100px] pt-4">
           <div>
             <Link href="/">

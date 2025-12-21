@@ -1,4 +1,3 @@
-import { FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 export const NavLinks = [
   {
     id: 1,
@@ -200,19 +199,16 @@ export const FAQData = [
   },
 ];
 
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
+
 export const SocialLinks = [
   {
     id: 1,
     icon: <FaInstagram size={24} />,
-    href: "/",
+    href: "https://www.instagram.com/dr.alkabulchandani?igsh=bjN0MnExajd5dDQ5",
   },
   {
     id: 2,
-    icon: <FaFacebook size={24} />,
-    href: "/",
-  },
-  {
-    id: 3,
     icon: <FaLinkedin size={24} />,
     href: "https://www.linkedin.com/in/dr-alka-bulchandani-a9455a64/",
   },
