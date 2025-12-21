@@ -16,7 +16,7 @@ const Footer = () => {
               alt="Dr.Alka Logo"
               width={80}
               height={80}
-              className="aspect-square w-20 lg:w-28 -ml-4 md:ml-0 md:-mt-5 lg:-mt-8"
+              className="aspect-square w-20 lg:w-28 -ml-4 md:-mt-5 lg:-mt-8"
               priority={false}
               loading="lazy"
               quality={75}
