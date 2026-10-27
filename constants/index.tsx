@@ -205,11 +205,13 @@ export const SocialLinks = [
   {
     id: 1,
     icon: <FaInstagram size={24} />,
+    label: "Instagram",
     href: "https://www.instagram.com/dr.alkabulchandani?igsh=bjN0MnExajd5dDQ5",
   },
   {
     id: 2,
     icon: <FaLinkedin size={24} />,
+    label: "LinkedIn",
     href: "https://www.linkedin.com/in/dr-alka-bulchandani-a9455a64/",
   },
 ];

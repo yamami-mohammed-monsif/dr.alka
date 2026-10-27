@@ -84,7 +84,7 @@ const Footer = () => {
               key={link.id}
               className="hover:scale-120 transition-transform duration-200"
             >
-              <Link href={link.href} target="_blank">
+              <Link href={link.href} target="_blank" aria-label={link.label}>
                 {link.icon}
               </Link>
             </li>
