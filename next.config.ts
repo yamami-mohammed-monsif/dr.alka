@@ -1,13 +1,10 @@
-import type { NextConfig } from "next";
+const nextConfig = {
+  // Image optimization
 
-const nextConfig: NextConfig = {
-  // Compiler options for better performance
-  compiler: {
-    // Remove console logs in production
-    removeConsole: process.env.NODE_ENV === "production",
+  experimental: {
+    inlineCss: true,
   },
 
-  // Image optimization
   images: {
     formats: ["image/avif", "image/webp"],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
