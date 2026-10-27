@@ -22,8 +22,9 @@ const MobileNav = ({ isMenuOpen, onToggle }: MobileNavProps) => {
             transition-transform duration-300 ease-in-out
             ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
         aria-hidden={!isMenuOpen}
+        inert={!isMenuOpen}
         role="dialog"
-        aria-modal="true"
+        aria-modal={isMenuOpen}
       >
         <nav className="px-8 py-10">
           <ul className="space-y-4 text-lg">
