@@ -12,11 +12,13 @@ Mobile PageSpeed Insights, captured Oct 27, 2026 (emulated Moto G Power, Lightho
 
 | Performance | Accessibility | Best Practices | SEO |
 | :---------: | :-----------: | :------------: | :-: |
-|     95      |      93       |      100       | 100 |
+|     98      |      93       |      100       | 100 |
 
-|  FCP  |  LCP  |  TBT  | CLS | Speed Index |
-| :---: | :---: | :---: | :-: | :---------: |
-| 0.9 s | 2.0 s | 40 ms |  0  |    2.1 s    |
+|  FCP  |  LCP  |  TBT   | CLS | Speed Index |
+| :---: | :---: | :----: | :-: | :---------: |
+| 0.9 s | 2.0 s | 130 ms |  0  |    2.4 s    |
+
+![screenshot](docs/performance-test.png)
 
 These are lab results, not field data. They show the page is fast on a mid-range phone, which matters because ad traffic in the UAE is mostly mobile.
 
