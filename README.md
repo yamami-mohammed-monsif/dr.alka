@@ -12,11 +12,11 @@ Mobile PageSpeed Insights, captured Oct 27, 2026 (emulated Moto G Power, Lightho
 
 | Performance | Accessibility | Best Practices | SEO |
 | :---------: | :-----------: | :------------: | :-: |
-|     99      |      93       |      100       | 100 |
+|     95      |      93       |      100       | 100 |
 
 |  FCP  |  LCP  |  TBT  | CLS | Speed Index |
 | :---: | :---: | :---: | :-: | :---------: |
-| 0.9 s | 2.1 s | 40 ms |  0  |    2.1 s    |
+| 0.9 s | 2.0 s | 40 ms |  0  |    2.1 s    |
 
 These are lab results, not field data. They show the page is fast on a mid-range phone, which matters because ad traffic in the UAE is mostly mobile.
 
@@ -40,8 +40,6 @@ One page, one action: **book a free smile makeover consultation**. The visitor i
 | **Three-step process**             | Book on WhatsApp → personalised assessment → start when ready. It shows the first step is small and reversible.                                                              |
 | **Privacy policy and terms pages** | Trust signal and basic compliance for a healthcare brand collecting enquiries.                                                                                               |
 
-<!-- Confirm before publishing: that the statistics, testimonials, and before/after images were supplied by the clinic, and whether naming the clinic is approved. -->
-
 ## Measurement
 
 Google Tag Manager is installed site-wide, with GA4 tags configured in the container:
@@ -51,8 +49,6 @@ Google Tag Manager is installed site-wide, with GA4 tags configured in the conta
 | Google tag (all pages) | Page views and GA4 configuration                    |
 | `whatsapp_click`       | Fires when a visitor clicks a WhatsApp booking link |
 | `scroll_depth`         | Tracks how far visitors scroll                      |
-
-<!-- Confirm before publishing: that the latest GTM workspace changes are submitted as the live version, and add the scroll thresholds and trigger conditions here. -->
 
 **Metrics to watch once ads run:** WhatsApp click-through rate (`whatsapp_click` ÷ sessions), cost per WhatsApp click, and scroll-depth drop-off by section.
 

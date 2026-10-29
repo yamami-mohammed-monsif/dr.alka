@@ -86,7 +86,8 @@ const BeforeAfters = () => {
                     alt={img.alt}
                     fill
                     className="object-cover rounded-lg"
-                    sizes="(max-width: 768px) 300px, (max-width: 1024px) 300px, 280px"
+                    sizes="(min-width: 1025px) 280px, 300px"
+                    quality={65}
                     priority={img.id === 1}
                   />
                 </div>
